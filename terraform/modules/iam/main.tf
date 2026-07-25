@@ -22,7 +22,7 @@ locals {
       data.aws_caller_identity.current.account_id,
       ":repository/",
       var.ecr_repository_name_prefix,
-      "*"
+      "/*"
     ]
   )
 
